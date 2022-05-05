@@ -1,0 +1,798 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Lectures on python</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-gem"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Python</h1>
+								<p>Добро пожаловать на мой первый сайт <br />
+								</p>
+							</div>
+						</div>
+						<ol>
+							<li><a href="#intro">Возможности</a></li>
+							<li><a href="#intro1">Первая программа</a></li>
+							<li><a href="#intro2">Синтаксис</a></li>
+							<li><a href="#intro3">Условный оператор if</a></li>
+							<li><a href="#hate">Циклы</a></li>
+							<li><a href="#hate1">Функции</a></li>
+						</ol>
+
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+					
+					
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Возможности</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								
+								<p>Так как мне часто стали задавать вопросы о том, чем может быть полезен Python, я решил написать небольшую обзорную статью на эту тему.</p>
+								
+
+<p>Вот лишь некоторые вещи, которые умеет делать python:</p>
+<ul>
+<li>Работа с xml/html файлами</li>
+<li>Работа с http запросами</li>
+<li>GUI (графический интерфейс)</li>
+<li>Создание веб-сценариев</li>
+<li>Работа с FTP</li>
+<li>Работа с изображениями, аудио и видео файлами</li>
+<li>Робототехника</li>
+<li>Программирование математических и научных вычислений</li>
+<li>И многое, многое другое...</li>
+</ul>
+<p>Таким образом, python подходит для решения львиной доли повседневных задач, будь то резервное копирование, чтение электронной почты, либо же какая-нибудь игрушка. Язык программирования Python практически ничем не ограничен, поэтому также может использоваться в крупных проектах. К примеру, python интенсивно применяется IT-гигантами, такими как, например, Google и Yandex. К тому же простота и универсальность python делают его одним из лучших языков программирования.</p>
+							</article>
+		
+							<article id="intro1">
+								<h2 class="major">Первая программа</h2>
+
+								<p>Сегодня мы напишем свою первую программу в среде разработки IDLE.</p>
+
+<p>После загрузки и установки python открываем IDLE (среда разработки на языке Python, поставляемая вместе с дистрибутивом).</p>
+
+<p>Запускаем IDLE (изначально запускается в интерактивном режиме), после чего уже можно начинать писать первую программу. Традиционно, первой программой у нас будет "hello world".</p>
+
+<p>Чтобы написать "hello world" на python, достаточно всего одной строки:</p>
+
+<pre> 
+<code>		print("Hello world!") 
+</code>
+</pre>
+
+<p>Вводим этот код в IDLE и нажимаем Enter.</p>
+
+<p>Первая программа на python</p>
+
+<p>Поздравляю! Вы написали свою первую программу на python!</p>
+
+<p>С интерактивным режимом мы немного познакомились, можете с ним ещё поиграться, например, написать:</p>
+
+<pre>
+<code> print(3 + 4)
+ print(3 * 5)
+ print(3 ** 2)
+</code>
+</pre>
+
+<p>Но, всё-таки, интерактивный режим не будет являться основным. В основном, вы будете сохранять программный код в файл и запускать уже файл.</p>
+
+<p>Для того, чтобы создать новое окно, в интерактивном режиме IDLE выберите File → New File (или нажмите Ctrl + N).</p>
+
+<h1>Открытие нового окна в IDLE</h1>
+
+<p>В открывшемся окне введите следующий код:</p>
+
+<pre>	
+<code>name = input("Как Вас зовут? ")
+print("Привет,", name)
+</code> 	
+</pre>
+	
+<p>Первая строка печатает вопрос ("Как Вас зовут? "), ожидает, пока вы не напечатаете что-нибудь и не нажмёте Enter и сохраняет введённое значение в переменной name.</p>
+
+<p>Во второй строке мы используем функцию print для вывода текста на экран, в данном случае для вывода "Привет, " и того, что хранится в переменной "name".</p>
+
+<p>Теперь нажмём F5 (или выберем в меню IDLE Run → Run Module) и убедимся, что то, что мы написали, работает. Перед запуском IDLE предложит нам сохранить файл. Сохраним туда, куда вам будет удобно, после чего программа запустится.</p>
+
+<h3>Запуск программы в IDLE</h3>
+
+<p>Поздравляю! Вы научились писать простейшие программы, а также познакомились со средой разработки IDLE. Теперь можно немного отдохнуть, а потом начать изучать python дальше. Можете посмотреть синтаксис python, циклы или условия. Желаю удачи!</p>
+							</article>
+							
+							<article id="intro2">
+								<h2 class="major">Синтаксис</h2>
+								
+								<p>Синтаксис языка Python, как и сам язык, очень прост.</p>
+
+<h2>Синтаксис</h2>
+<p>Конец строки является концом инструкции (точка с запятой не требуется).</p>
+
+<p>Вложенные инструкции объединяются в блоки по величине отступов. Отступ может быть любым, главное, чтобы в пределах одного вложенного блока отступ был одинаков. И про читаемость кода не забывайте. Отступ в 1 пробел, к примеру, не лучшее решение. Используйте 4 пробела (или знак табуляции, на худой конец).</p>
+
+<p>Вложенные инструкции в Python записываются в соответствии с одним и тем же шаблоном, когда основная инструкция завершается двоеточием, вслед за которым располагается вложенный блок кода, обычно с отступом под строкой основной инструкции.</p>
+<p>Основная инструкция:</p>
+<ul>
+<li>Вложенный блок инструкций</li>
+<li>Несколько специальных случаев</li>
+<li>Иногда возможно записать несколько инструкций в одной строке, разделяя их точкой с запятой:</li>
+</ul>
+
+<pre>	
+<code>a = 1; b = 2; print(a, b)
+</code> 	
+</pre>
+	
+<p>Но не делайте это слишком часто! Помните об удобочитаемости. А лучше вообще так не делайте.</p>
+
+<p>Допустимо записывать одну инструкцию в нескольких строках. Достаточно ее заключить в пару круглых, квадратных или фигурных скобок:</p>
+
+<pre>	
+<code>if (a == 1 and b == 2 and
+c == 3 and d == 4):  # Не забываем про двоеточие
+print('spam' * 3)
+</code> 	
+</pre>
+
+<p>Тело составной инструкции может располагаться в той же строке, что и тело основной, если тело составной инструкции не содержит составных инструкций. Ну я думаю, вы поняли :). Давайте лучше пример приведу:</p>
+
+<pre>	
+<code>if x > y: print(x)
+</code> 	
+</pre>
+	
+							</article>
+							
+							<article id="intro3">
+								<h2 class="major">Условный оператор if</h2>
+							
+								<p>Условная инструкция if-elif-else (её ещё иногда называют оператором ветвления) - основной инструмент выбора в Python. Проще говоря, она выбирает, какое действие следует выполнить, в зависимости от значения переменных в момент проверки условия.</p>
+
+<h2>Синтаксис инструкции if</h2>
+<p>Сначала записывается часть if с условным выражением, далее могут следовать одна или более необязательных частей elif, и, наконец, необязательная часть else. Общая форма записи условной инструкции if выглядит следующим образом:</p>
+
+<pre>	
+<code>if test1:
+    state1
+elif test2:
+    state2
+else:
+    state3
+</code> 	
+</pre>
+
+<p>Простой пример (напечатает 'true', так как 1 - истина):</p>
+
+<pre>	
+<code>>>> if 1:
+...     print('true')
+... else:
+...     print('false')
+...
+true
+</code> 	
+</pre>
+
+<p>Чуть более сложный пример (его результат будет зависеть от того, что ввёл пользователь):</p>
+
+<pre>	
+<code>a = int(input())
+if a < -5:
+    print('Low')
+elif -5 <= a <= 5:
+    print('Mid')
+else:
+    print('High')
+</code> 	
+</pre>
+
+<p>Конструкция с несколькими elif может также служить отличной заменой конструкции switch - case в других языках программирования.</p>
+
+<h2>Проверка истинности в Python</h2>
+Любое число, не равное 0, или непустой объект - истина.
+Числа, равные 0, пустые объекты и значение None - ложь
+Операции сравнения применяются к структурам данных рекурсивно
+Операции сравнения возвращают True или False
+Логические операторы and и or возвращают истинный или ложный объект-операнд
+Логические операторы:
+
+<pre>	
+<code>X and Y
+</code> 	
+</pre>
+
+
+<p>Истина, если оба значения X и Y истинны.</p>
+
+<pre>	
+<code>X or Y
+</code> 	
+</pre>
+
+<p>Истина, если хотя бы одно из значений X или Y истинно.</p>
+
+<pre>	
+<code>not X
+</code> 	
+</pre>
+
+
+<p>Истина, если X ложно.</p>
+
+<h2>Трехместное выражение if/else</h2>
+<p>Следующая инструкция:</p>
+
+<pre>	
+<code>if X:
+    A = Y
+else:
+    A = Z
+</code> 	
+</pre>
+
+<p>довольно короткая, но, тем не менее, занимает целых 4 строки. Специально для таких случаев и было придумано выражение if/else:</p>
+
+<pre>	
+<code>A = Y if X else Z
+</code> 	
+</pre>
+
+<p>В данной инструкции интерпретатор выполнит выражение Y, если X истинно, в противном случае выполнится выражение Z.</p>
+
+<pre>	
+<code>>>>
+>>> A = 't' if 'spam' else 'f'
+>>> A
+'t'
+</code> 	
+</pre>
+						
+							</article>
+
+							<!-- Intro -->
+							<article id="hate">
+								<h2 class="major">Циклы</h2>
+															
+								<p>В этой статье я расскажу о циклах for и while, операторах break и continue, а также о слове else, которое, будучи употребленное с циклом, может сделать программный код несколько более понятным.</p>
+
+<h2>Цикл while</h2>
+<p>While - один из самых универсальных циклов в Python, поэтому довольно медленный. Выполняет тело цикла до тех пор, пока условие цикла истинно.</p>
+
+<pre>	
+<code>>>>
+>>> i = 5
+>>> while i < 15:
+...     print(i)
+...     i = i + 2
+...
+5
+7
+9
+11
+13
+</code> 	
+</pre>
+
+<h2>Цикл for</h2>
+<p>Цикл for уже чуточку сложнее, чуть менее универсальный, но выполняется гораздо быстрее цикла while. Этот цикл проходится по любому итерируемому объекту (например строке или списку), и во время каждого прохода выполняет тело цикла.</p>
+
+<pre>	
+<code>>>>
+>>> for i in 'hello world':
+...     print(i * 2, end='')
+...
+hheelllloo  wwoorrlldd
+</code> 	
+</pre>
+
+<h2>Оператор continue</h2>
+<p>Оператор continue начинает следующий проход цикла, минуя оставшееся тело цикла (for или while)</p>
+
+<pre>	
+<code>>>>
+>>> for i in 'hello world':
+...     if i == 'o':
+...         continue
+...     print(i * 2, end='')
+...
+hheellll  wwrrlldd
+</code> 	
+</pre>
+
+<h2>Оператор break</h2>
+<p>Оператор break досрочно прерывает цикл.</p>
+
+<pre>	
+<code>>>>
+>>> for i in 'hello world':
+...     if i == 'o':
+...         break
+...     print(i * 2, end='')
+...
+hheellll
+</code> 	
+</pre>
+
+<h2>Волшебное слово else</h2>
+<p>Слово else, примененное в цикле for или while, проверяет, был ли произведен выход из цикла инструкцией break, или же "естественным" образом. Блок инструкций внутри else выполнится только в том случае, если выход из цикла произошел без помощи break.</p>
+
+<pre>	
+<code>>>>
+>>> for i in 'hello world':
+...     if i == 'a':
+...         break
+... else:
+...     print('Буквы a в строке нет')
+...
+Буквы a в строке нет
+</code> 	
+</pre>
+
+						</article>
+
+						<article id="hate1">
+								<h2 class="major">Функции</h2>
+		
+								<p>В этой статье я планирую рассказать о функциях, именных и анонимных, инструкциях def, return и lambda, обязательных и необязательных аргументах функции, функциях с произвольным числом аргументов.</p>
+
+<h2>Именные функции, инструкция def</h2>
+Функция в python - объект, принимающий аргументы и возвращающий значение. Обычно функция определяется с помощью инструкции def.
+
+<p>Определим простейшую функцию:</p>
+
+<pre>	
+<code>def add(x, y):
+    return x + y
+</code> 	
+</pre>
+
+<p>Инструкция return говорит, что нужно вернуть значение. В нашем случае функция возвращает сумму x и y.</p>
+
+<p>Теперь мы ее можем вызвать:</p>
+
+<pre>	
+<code>>>>
+>>> add(1, 10)
+11
+>>> add('abc', 'def')
+'abcdef'
+</code> 	
+</pre>
+>>>
+>>> add(1, 10)
+11
+>>> add('abc', 'def')
+'abcdef'
+<p>Функция может быть любой сложности и возвращать любые объекты (списки, кортежи, и даже функции!):</p>
+
+<pre>	
+<code>>>>
+>>> def newfunc(n):
+...     def myfunc(x):
+...         return x + n
+...     return myfunc
+...
+>>> new = newfunc(100)  # new - это функция
+>>> new(200)
+300
+</code> 	
+</pre>
+
+<p>Функция может и не заканчиваться инструкцией return, при этом функция вернет значение None:</p>
+
+<pre>	
+<code>>>>
+>>> def func():
+...     pass
+...
+>>> print(func())
+None
+</code> 	
+</pre>
+
+<h2>Аргументы функции</h2>
+<p>Функция может принимать произвольное количество аргументов или не принимать их вовсе. Также распространены функции с произвольным числом аргументов, функции с позиционными и именованными аргументами, обязательными и необязательными.</p>
+
+<pre>	
+<code>>>>
+>>> def func(a, b, c=2): # c - необязательный аргумент
+...     return a + b + c
+...
+>>> func(1, 2)  # a = 1, b = 2, c = 2 (по умолчанию)
+5
+>>> func(1, 2, 3)  # a = 1, b = 2, c = 3
+6
+>>> func(a=1, b=3)  # a = 1, b = 3, c = 2
+6
+>>> func(a=3, c=6)  # a = 3, c = 6, b не определен
+Traceback (most recent call last):
+  File "", line 1, in
+    func(a=3, c=6)
+TypeError: func() takes at least 2 arguments (2 given)
+</code> 	
+</pre>
+
+<p>Функция также может принимать переменное количество позиционных аргументов, тогда перед именем ставится *:</p>
+
+<pre>	
+<code>>>>
+>>> def func(*args):
+...     return args
+...
+>>> func(1, 2, 3, 'abc')
+(1, 2, 3, 'abc')
+>>> func()
+()
+>>> func(1)
+(1,)
+</code> 	
+</pre>
+
+<p>Как видно из примера, args - это кортеж из всех переданных аргументов функции, и с переменной можно работать также, как и с кортежем.</p>
+
+<p>Функция может принимать и произвольное число именованных аргументов, тогда перед именем ставится **:</p>
+
+<pre>	
+<code>>>>
+>>> def func(**kwargs):
+...     return kwargs
+...
+>>> func(a=1, b=2, c=3)
+{'a': 1, 'c': 3, 'b': 2}
+>>> func()
+{}
+>>> func(a='python')
+{'a': 'python'}
+</code> 	
+</pre>
+
+<p>В переменной kwargs у нас хранится словарь, с которым мы, опять-таки, можем делать все, что нам заблагорассудится.</p>
+
+<h2>Анонимные функции, инструкция lambda</h2>
+<p>Анонимные функции могут содержать лишь одно выражение, но и выполняются они быстрее. Анонимные функции создаются с помощью инструкции lambda. Кроме этого, их не обязательно присваивать переменной, как делали мы инструкцией def func():</p>
+
+<pre>	
+<code>>>>
+>>> func = lambda x, y: x + y
+>>> func(1, 2)
+3
+>>> func('a', 'b')
+'ab'
+>>> (lambda x, y: x + y)(1, 2)
+3
+>>> (lambda x, y: x + y)('a', 'b')
+'ab'
+</code> 	
+</pre>
+
+<p>lambda функции, в отличие от обычной, не требуется инструкция return, а в остальном, ведет себя точно так же:</p>
+
+<pre>
+<code>>>>
+>>> func = lambda *args: args
+>>> func(1, 2, 3, 4)
+(1, 2, 3, 4)
+</code>
+</pre>
+
+
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Контакты</h2>
+								<form action="https://formspree.io/f/mpzbyzen" method="post">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Имя</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Сообщение</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Отправить" class="primary" /></li>
+										<li><input type="reset" value="Заново" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://m.facebook.com/profile.php" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/magihate/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/msharokhin" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; DESIGN: <a href="https://html5up.net/">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
